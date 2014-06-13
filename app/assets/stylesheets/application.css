@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+.photooos {
+  border-radius: 13px;
+  width: 136px;
+}

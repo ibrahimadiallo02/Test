@@ -1,6 +1,19 @@
 Rails.application.routes.draw do
   get 'welcome/index'
-
+  get 'admin' => 'admin#index', as: :admin # admin_path
+  get 'albums' => 'medias#albums', as: :albums
+  get 'photos' => 'medias#photos', as: :photos
+  get 'videos' => 'medias#videos', as: :videos
+  
+  resources :articles do
+    resources :comments
+  end
+  
+  resources :concerts
+  
+  
+  root 'welcome#index'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -55,11 +68,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  
-  resources :articles do
-    resources :comments
-  end
-  
-  root 'welcome#index'
   
 end
