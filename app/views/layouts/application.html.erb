@@ -19,6 +19,8 @@
   
   
 <body>
+  
+                  
 <!-- Static navbar -->
     <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
@@ -41,6 +43,7 @@
               <ul class="dropdown-menu">
                 <li><a href="<%= albums_path%>">ALBUMS</a></li>
                 <li><a href="<%= photos_path%>">PHOTOS</a></li>
+         
                 <li><a href="<%= videos_path%>">VIDEOS</a></li>
                </ul>
             </li>
@@ -52,7 +55,10 @@
     </div>
   
   <div class='container'>
+  
     <%= yield %>
   </div>  
 </body>
+  
+  
 </html>

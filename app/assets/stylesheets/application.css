@@ -13,7 +13,11 @@
  *= require_tree .
  *= require_self
  */
-.photooos {
+.tof2pac {
+  border-radius: 13px;
+  width: 136px;
+}
+.tof2pac2 {
   border-radius: 13px;
   width: 136px;
 }
