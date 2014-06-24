@@ -9,7 +9,12 @@ Rails.application.routes.draw do
     resources :comments
   end
   
-  resources :concerts
+  resources :concerts do
+    collection do
+      get 'indexadmin'
+    end
+  end
+  
   
   
   root 'welcome#index'

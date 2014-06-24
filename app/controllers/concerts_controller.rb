@@ -1,8 +1,16 @@
 class ConcertsController < ApplicationController
+  
+   http_basic_authenticate_with name: "ibrahima", password: "ibrahima", except: [:index, :show]
+  
   before_action :set_concert, only: [:show, :edit, :update, :destroy]
 
   # GET /concerts
   # GET /concerts.json
+ 
+  def indexadmin
+    @concerts = Concert.all
+  end
+
   def index
     @concerts = Concert.all
   end

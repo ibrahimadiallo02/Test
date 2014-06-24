@@ -17,10 +17,13 @@
         <td><%= concert.title %></td>
         <td><%= concert.place %></td>
         <td><%= link_to 'Show', concert %></td>
+        <td><%= link_to 'Edit', edit_concert_path(concert) %></td>
+        <td><%= link_to 'Destroy', concert, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-<%= link_to 'Admin', indexadmin_concerts_path %>
+
+<%= link_to 'Ajout d\'un concert', new_concert_path %>
