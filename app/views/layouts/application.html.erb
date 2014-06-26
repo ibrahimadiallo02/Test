@@ -14,7 +14,7 @@
   
   
 <body>
-  
+
                   
 <!-- Static navbar -->
     <div class="navbar navbar-default navbar-static-top" role="navigation">
@@ -30,7 +30,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">        
-            <li><a href="#about">l'HISTOIRE DU PAN</a></li>
+            <li><a href="#about">HISTOIRE DU PAN</a></li>
             <li><a href="<%= concerts_path%>">CONCERTS</a></li>
             <li><a href="#evenement">EVENEMENTS</a></li>
             <li class="dropdown">
@@ -44,6 +44,11 @@
                 <li><a href="#actualites">ACTUALITES</a></li>
             <li><a href="#evenement">CONTACTS</a></li>
           </ul>
+       
+     <ul class="btn-group nav navbar-nav navbar-right">
+        <a href="<%= url_for(locale: :fr)%>"><button type="button" class="btn btn-primary btn-sm">fr </button></a>
+        <a href="<%= url_for(locale: :en)%>"><button type="button" class="btn btn-info btn-sm">en </button></a>
+      </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
