@@ -17,7 +17,7 @@
 
                   
 <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar navbar-default navbar-static-top"role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,17 +46,28 @@
           </ul>
        
      <ul class="btn-group nav navbar-nav navbar-right">
-        <a href="<%= url_for(locale: :fr)%>"><button type="button" class="btn btn-primary btn-sm">fr </button></a>
-        <a href="<%= url_for(locale: :en)%>"><button type="button" class="btn btn-info btn-sm">en </button></a>
+        <a href="<%= url_for(locale: :fr)%>"><%= image_tag "fr.jpg"%></a>
+       <a href="<%= url_for(locale: :en)%>"><%= image_tag "en.jpg"%></a>
       </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
   
-  <div class='container'>
-  
+  <div class='container' style='min-height: 800px' >
     <%= yield %>
+  </div>    
+  
+  
   </div>  
+  
+  
+  
+  
+  <footer style="width:100%;background-color: black; height:100px;text-align:center;padding:30px;">
+    <span style='font-size:20px;color:rgba(175, 175, 175, 1);'>
+      Copyright 2014 - Ibrahima Diallo
+    <span>
+  </footer>
 </body>
   
   
