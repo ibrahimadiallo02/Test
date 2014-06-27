@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test</title>
+  <title>Steel Vibration</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -29,10 +29,9 @@
           <a class="navbar-brand" href="<%= welcome_index_path%>">STEEL VIBRATION</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">        
-            <li><a href="#about">HISTOIRE DU PAN</a></li>
-            <li><a href="<%= concerts_path%>">CONCERTS</a></li>
-            <li><a href="#evenement">EVENEMENTS</a></li>
+          <ul class="nav navbar-nav">
+            <li><a href="<%= histoires_path%>"><%= t 'histoire'%></a></li>
+            <li><a href="<%= concerts_path%>"><%= t 'evenements'%></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">MEDIAS <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -41,8 +40,7 @@
                 <li><a href="<%= videos_path%>">VIDEOS</a></li>
                </ul>
             </li>
-                <li><a href="#actualites">ACTUALITES</a></li>
-            <li><a href="#evenement">CONTACTS</a></li>
+            <li><a href="<%= contacts_path%>">CONTACTS</a></li>
           </ul>
        
      <ul class="btn-group nav navbar-nav navbar-right">
@@ -56,7 +54,7 @@
   <div class='container' style='min-height: 800px' >
     <%= yield %>
   </div>    
-  
+
   
   </div>  
   
@@ -65,7 +63,7 @@
   
   <footer style="width:100%;background-color: black; height:100px;text-align:center;padding:30px;">
     <span style='font-size:20px;color:rgba(175, 175, 175, 1);'>
-      Copyright 2014 - Ibrahima Diallo
+      Copyright © 2014 - Steel Vibration, asso.
     <span>
   </footer>
 </body>

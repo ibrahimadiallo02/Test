@@ -4,10 +4,13 @@ Rails.application.routes.draw do
   get 'albums' => 'medias#albums', as: :albums
   get 'photos' => 'medias#photos', as: :photos
   get 'videos' => 'medias#videos', as: :videos
+  get 'contacts' => 'contacts#index', as: :contacts
+  get 'histoires' => 'histoires#index', as: :histoires
   
   resources :articles do
     resources :comments
   end
+
   
   resources :concerts do
     collection do

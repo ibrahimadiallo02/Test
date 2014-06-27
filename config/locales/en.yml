@@ -21,18 +21,25 @@
 
 en:
   hello: "Hello world"
+  histoire : "HISTORY OF PAN"
+  evenements : "EVENTS"
   presentation : "The goal of the association Steel Vibration is to promote the steel pan and afro caribean musics. Le web site give you general information about the pan instrument, its historic, how it is built, but even offer you various activities. Through this our website, you can view events refering the organisation of steelbands concerts, and groups which the formation is compound of a pan. You also can consult events about the organisation of conferences, workshop, stages of initiation, ... and even buy cds."
   groupeLundi : "Team of monday"
   detailsGroupeLundi : " The Steel Vibration is compound of many groups. The picture above shows the team of monday. This group is mixed of 12 persons, with sometimes followers or escorts as we can see through the picture, the presence of a little boy. In joy and conviviality, the association is happy to welcome you inside its website."
   stage : "Children Training"
-  detailsStage : " "
-  
-  
+  detailsStage : "Besides organizing concerts, the Steel Association Vibration also offers courses for children ininiation the pan. These courses are held two times per week. They are held every Wednesday and Saturday ... It should be noted that these periods usually coincide with the absence of children in school: Wednesday and Saturday being a holiday weekend:-D"
+  fabrication : "Making a Steel Pan"
+  detailsFabrication : "A Steel Vibration is not that player to pan, they are also manufactures. The association has the latest generation equipment. The pesonnes who are responsible for making them are internal to the assocation. In other words, in order to save money but also Manire show that this association takes pleasure in his work, they are the same members of the assocation which ensure to create, customize, repair their tools."
+
 fr:
   hello: "Salut le monde"
+  histoire : "HISTOIRE DU PAN"
+  evenements : "EVENEMENTS"
   presentation : "L'association Steel Vibration a pour but de promouvoir le steel pan et la musique afro caribéenne. Le site vous permet d'avoir des informations générales sur le pan, son histoire, sa construction, mais vous propose aussi des activités diverses. A travers ce site, vous pourrez consulter les évenements concernant l'organisation des concerts de steelbands, mais aussi de groupes dont la formation comprend un pan. Vous pourrez aussi consulter les évenements sur l'organisation des conférences, workshop, stages d'initiation,... et aussi acheter des cds."
   groupeLundi : "Groupe du lundi"
   detailsGroupeLundi : "L'association Steel Vibration est formée de plusiers groupes. Cette photo illustre le groupe du lundi. Ce groupe est composée de 12 personnes, avec de temps à autres des accompagnateurs comme on peut s'appercevoir à travers la photo, la présence d'un petit enfant. Dans la joie et la conviviabilité, l'association est toute heureuse de vous acceuillir sur leur site."
   stage : "Stage Enfants"
   detailsStage : "Outre l'organisation des concerts, l'association Steel Vibration propose aussi des stages d'ininiation au pan pour enfants. Ces stages ont lieu 2 fois par semaine. Ils se déroulent tous les mercredi et samedi...Il faut remarquer que ces périodes coincident généralement à l'absence des enfants à l'école : mercredi étant férié et samedi le weekend :-D"
+  fabrication : "Fabrication d'un Steel Pan"
+  detailsFabrication : "A Steel Vibration, on ne fait pas que joueur au pan, on les confectionne aussi. L'association dispose des matériels de dernières générations. Les pesonnes qui se chargent de les fabriquer sont internes de l'assocation. En d'autres termes, afin de faire des économies mais aussi une manire de montrer que cette association prend du plaisir à son activité, ce sont les membres mêmes de l'assocation qui assurent de créer, personnaliser, réparer leurs outils de travail."
   
